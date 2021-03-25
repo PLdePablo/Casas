@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Casas Home</h1>
+  <p>Bienvenido a Casas, una website desarrollada por <em>Mozilla Developer Network</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>Las casas tienen los siguientes numeros de registros:</p>
+  <ul>
+    <li><strong>Pisos:</strong> {{ num_pisos }}</li>
+    <li><strong>Inquilinos:</strong> {{ num_inquilinos }}</li>
+  </ul>
+{% endblock %}
